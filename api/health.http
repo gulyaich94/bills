@@ -1,0 +1,11 @@
+### App actuator
+GET {{health_host}}/actuator
+
+### App health
+GET {{health_host}}/actuator/health
+
+### App info
+GET {{health_host}}/actuator/info
+
+### App metrics
+GET {{health_host}}/actuator/prometheus

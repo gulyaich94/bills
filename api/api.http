@@ -1,0 +1,3 @@
+### Echo test request
+GET {{api_host}}/user/world
+Accept: application/json
