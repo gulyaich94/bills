@@ -1,3 +1,7 @@
-### Echo test request
-GET {{api_host}}/user/world
+### Get user by id
+GET {{api_host}}/user/1
+Accept: application/json
+
+### Get all users
+GET {{api_host}}/user/all
 Accept: application/json
