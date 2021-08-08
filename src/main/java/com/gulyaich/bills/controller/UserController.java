@@ -1,9 +1,9 @@
-package com.gulyaich.bills.user.controller;
+package com.gulyaich.bills.controller;
 
-import com.gulyaich.bills.user.model.dto.UserDTO;
-import com.gulyaich.bills.user.model.entity.User;
-import com.gulyaich.bills.user.model.mapper.UserMapper;
-import com.gulyaich.bills.user.service.UserService;
+import com.gulyaich.bills.model.dto.UserDTO;
+import com.gulyaich.bills.model.entity.User;
+import com.gulyaich.bills.model.mapper.UserMapper;
+import com.gulyaich.bills.service.user.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Objects;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/user")
 public class UserController {
 
     private final UserService userService;

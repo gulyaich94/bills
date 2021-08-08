@@ -1,9 +1,9 @@
-package com.gulyaich.bills.user.model.mapper;
+package com.gulyaich.bills.model.mapper;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gulyaich.bills.user.model.dto.UserDTO;
-import com.gulyaich.bills.user.model.entity.User;
+import com.gulyaich.bills.model.dto.UserDTO;
+import com.gulyaich.bills.model.entity.User;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 

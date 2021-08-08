@@ -1,5 +1,5 @@
 ### Get user by id
-GET {{api_host}}/user/1
+GET {{api_host}}/api/user/1
 Accept: application/json
 
 ### Get all users

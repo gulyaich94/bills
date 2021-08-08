@@ -1,4 +1,4 @@
-package com.gulyaich.bills.user.exception;
+package com.gulyaich.bills.exception;
 
 public class UserNotFoundException extends RuntimeException {
 
